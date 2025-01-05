@@ -21,3 +21,40 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.ipynb_checkpoints
+
+# Unit test / coverage reports
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+
+# Local configuration files
+.env
+local_settings.py
+config.py
+
+# Secrets and credentials
+.aws
+credentials.json
